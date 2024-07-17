@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+mkdir -p .git/info/
+printf ".envrc\n.shell.nix\n.direnv/" 1>.git/info/exclude
+inix
